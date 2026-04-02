@@ -15,6 +15,18 @@ in a virtual environment.
 
 <hr>
 
+<h2>🛠️ Project Overview</h2>
+<ul>
+  <li>Creating a 4-wheeled Differential Drive robot</li>
+  <li>Designing and building the robot body</li>
+  <li>Adding proximity sensors on the front side</li>
+  <li>Writing an obstacle avoidance controller</li>
+</ul>
+
+<p><b>Credits:</b> [https://cyberbotics.com/doc/guide/tutorial-6-4-wheels-robot]</p>
+
+<hr>
+
 <h2>⚙️ Features</h2>
 <ul>
   <li>Physics-based robot simulation</li>
