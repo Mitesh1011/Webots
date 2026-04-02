@@ -89,8 +89,8 @@ project/
 
 <h2>👨‍💻 Author</h2>
 <p>
-Mitesh<br>
-MSc Intelligent Automation & Robotics<br>
+Mitesh Salvi<br>
+MEng (Hons) Intelligent Automation & Robotics<br>
 Edge Hill University
 </p>
 
