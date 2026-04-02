@@ -1,65 +1,83 @@
-4-Wheeled Robot Simulation (Webots)
-📌 Overview
+<h1>🤖 4-Wheeled Robot Simulation (Webots)</h1>
 
-This project is a 4-wheeled mobile robot simulation developed using Webots. It demonstrates basic robot locomotion and obstacle avoidance using distance sensors and motor control.
+<p>
+This project demonstrates a <b>4-wheeled mobile robot simulation</b> built using 
+<b>Webots</b>. The robot is capable of basic movement and simple obstacle 
+avoidance using distance sensors.
+</p>
 
-The robot can move forward, detect obstacles, and automatically turn to avoid collisions.
+<hr>
 
-🎯 Features
-4-wheel drive robot
-Obstacle detection using distance sensors
-Autonomous obstacle avoidance behaviour
-Continuous motion with real-time control
-Simple and beginner-friendly implementation
-🛠️ Technologies Used
-Python
-Webots Robot Simulator
-📂 Project Structure
-├── 4_wheeled_robot.wbt     # Webots world file
-├── obstacle_avoidance.py   # Robot controller code
-⚙️ How It Works
+<h2>📌 Features</h2>
+<ul>
+  <li>4-wheel differential drive robot</li>
+  <li>Real-time simulation in Webots</li>
+  <li>Obstacle detection using distance sensors</li>
+  <li>Basic obstacle avoidance behaviour</li>
+  <li>Simple and beginner-friendly control logic</li>
+</ul>
 
-The robot uses two distance sensors:
+<hr>
 
-Left sensor (ds_left)
-Right sensor (ds_right)
-Behaviour:
-Moves forward by default
-If an obstacle is detected:
-Robot rotates in place
-Avoids collision
-Resumes forward motion
+<h2>⚙️ Technologies Used</h2>
+<ul>
+  <li>Webots Robot Simulator</li>
+  <li>Python (Robot Controller)</li>
+</ul>
 
-From your controller:
+<hr>
 
-If sensor value < 950 → obstacle detected
-Robot turns by reversing one side of wheels
-▶️ How to Run
-Open Webots
+<h2>🚀 How It Works</h2>
+<p>
+The robot uses two distance sensors (<b>left</b> and <b>right</b>) to detect obstacles.
+</p>
+<ul>
+  <li>If no obstacle is detected → Robot moves forward</li>
+  <li>If an obstacle is detected → Robot rotates to avoid collision</li>
+</ul>
 
-Load the world file:
+<hr>
 
-4_wheeled_robot.wbt
+<h2>📂 Project Structure</h2>
+<ul>
+  <li><b>4_wheeled_robot.wbt</b> – Webots world file</li>
+  <li><b>obstacle_avoidance.py</b> – Python controller for robot behaviour</li>
+</ul>
 
-Attach the controller:
+<hr>
 
-obstacle_avoidance.py
-Click Run ▶️
-📸 Simulation Logic (Code Summary)
-Initializes robot and sensors
-Enables distance sensors
-Controls 4 wheels using velocity
-Implements obstacle avoidance using a counter-based turning mechanism
-🚀 Future Improvements
-Add more sensors (front, rear, ultrasonic)
-Implement smoother path planning
-Integrate computer vision (camera)
-Apply SLAM or mapping algorithms
-📚 Learning Outcomes
-Understanding mobile robot control
-Sensor-based decision making
-Simulation-based robotics development
-Basic autonomous navigation
-👨‍💻 Author
+<h2>▶️ How to Run</h2>
+<ol>
+  <li>Open Webots</li>
+  <li>Load the <b>4_wheeled_robot.wbt</b> world file</li>
+  <li>Ensure the controller is set to <b>obstacle_avoidance.py</b></li>
+  <li>Click <b>Run</b> ▶️</li>
+</ol>
 
-Your Name
+<hr>
+
+<h2>📖 Learning Outcomes</h2>
+<ul>
+  <li>Understanding mobile robot kinematics</li>
+  <li>Working with sensors in simulation</li>
+  <li>Implementing basic autonomous behaviour</li>
+  <li>Introduction to robotics using Webots</li>
+</ul>
+
+<hr>
+
+<h2>🔮 Future Improvements</h2>
+<ul>
+  <li>Add more sensors (ultrasonic, camera)</li>
+  <li>Improve navigation algorithm</li>
+  <li>Implement path planning</li>
+  <li>Integrate machine learning for smarter decisions</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+<p>
+Your Name <br>
+MSc Intelligent Automation & Robotics
+</p>
