@@ -78,6 +78,6 @@ The robot uses two distance sensors (<b>left</b> and <b>right</b>) to detect obs
 
 <h2>👨‍💻 Author</h2>
 <p>
-Your Name <br>
-MSc Intelligent Automation & Robotics
+Mitesh Salvi <br>
+MEng (Hons) Intelligent Automation & Robotics
 </p>
