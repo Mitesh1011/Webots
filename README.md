@@ -53,7 +53,7 @@ in a virtual environment.
 project/
 │── worlds/            # Webots world files (.wbt)
 │── controllers/       # Python controllers
-│── images/            # Screenshots and demo files
+│── images_and_video/  # Screenshots and demo files
 │── README.md
 </pre>
 
